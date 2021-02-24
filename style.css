@@ -31,6 +31,7 @@
     text-shadow: 0 0 8px var(--bg-color);
     box-shadow: 0 0 4px var(--bg-color);
     transition: .3s;
+    animation: icon 2s ease-in-out infinite;
 }
 
 .overflow-icon-btn i {
@@ -78,5 +79,16 @@
         height: 200vh;
         justify-content: space-evenly;
         overflow: scroll;
+    }
+    .overflow-icon-btn {
+        animation: icon 3s ease-in-out infinite;
+        transition: all .2s;
+    }
+
+    @keyframes icon {
+        50% {
+            text-shadow: 0 0 14px var(--bg-color);
+            box-shadow: 0 0 14px var(--bg-color);
+        }
     }
 }
