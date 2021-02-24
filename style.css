@@ -24,10 +24,18 @@
 .container.links {
     font-family: 'Michroma', sans-serif;
 }
+.container.links a{
+    font-family: 'Michroma', sans-serif;
+}
+
 .container.contact {
     background: #000;
     color: #fff;
     font-family: 'Merienda', cursive;
+}
+.container.contact a{
+    font-family: 'Merienda', cursive;
+
 }
 .overflow-icon-btn {
     text-decoration: none;
@@ -98,7 +106,7 @@
 
     @keyframes icon {
         
-        50% {
+        40%, 80% {
             text-shadow: 0 0 14px var(--bg-color);
             box-shadow: 0 0 14px var(--bg-color);
         }
