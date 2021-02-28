@@ -23,14 +23,15 @@
 }
 .container.links {
     font-family: 'Michroma', sans-serif;
+    background: #eee;
 }
 .container.links a{
     font-family: 'Michroma', sans-serif;
 }
 
 .container.contact {
-    background: #000;
-    color: #fff;
+    background: #333;
+    color: #eee;
     font-family: 'Merienda', cursive;
 }
 .container.contact a{
@@ -58,7 +59,8 @@
 }
 
 .overflow-icon-btn:hover{
-    text-shadow: 0 0 24px var(--bg-color);
+    text-shadow: 0 0 34px var(--bg-color);
+    
 }
 
 .margin-8-wrapper{
@@ -103,12 +105,19 @@
         animation: icon 3s ease-in-out infinite;
         transition: all .2s;
     }
+    .container.links {
+        background: linear-gradient(0deg, #000, #ddd,  #eee);
+    }
+    
+    .container.contact {
+        background: linear-gradient(0deg, #eee, #ddd, #000);
+    }
 
     @keyframes icon {
         
-        40%, 80% {
+        50%{
             text-shadow: 0 0 14px var(--bg-color);
-            box-shadow: 0 0 14px var(--bg-color);
+            box-shadow: 0px 0px  34px var(--bg-color);
         }
     }
 }
