@@ -75,7 +75,7 @@
     --bg-color: #cd486b;
 }
 .overflow-icon-btn.fcc {
-    --bg-color: orange;
+    --bg-color: #00008b;
 }
 .overflow-icon-btn.gmail {
     --bg-color: #dc143c;
@@ -117,7 +117,7 @@
         
         50%{
             text-shadow: 0 0 14px var(--bg-color);
-            box-shadow: 0px 0px  34px var(--bg-color);
+            box-shadow: 0px 0px  24px var(--bg-color);
         }
     }
 }
