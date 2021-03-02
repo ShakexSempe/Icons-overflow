@@ -31,7 +31,7 @@
 
 .container.contact {
     background: #333;
-    color: #eee;
+    color: #fff;
     font-family: 'Merienda', cursive;
 }
 .container.contact a{
@@ -75,7 +75,7 @@
     --bg-color: #cd486b;
 }
 .overflow-icon-btn.fcc {
-    --bg-color: #00008b;
+    --bg-color: #01012e;
 }
 .overflow-icon-btn.gmail {
     --bg-color: #dc143c;
